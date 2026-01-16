@@ -1,4 +1,4 @@
-> **⚠️ Aviso sobre la autoría y origen del repositorio**
+> **Aviso sobre la autoría y origen del repositorio**
 >
 > Este repositorio actúa como una **copia pública** (mirror/snapshot) de un repositorio originalmente privado, desarrollado con fines académicos. Este proyecto es el resultado de un esfuerzo conjunto y **no es un trabajo de autoría exclusivamente individual**. Todos los créditos de desarrollo corresponden a los miembros del **Grupo 18** listados a continuación.
 
@@ -8,11 +8,11 @@
 
 Este proyecto de Machine Learning tiene como objetivo predecir la fuga o rotación de empleados (**Attrition**) dentro de una organización. A través del análisis de datos históricos de empleados, se entrenaron y evaluaron diversos modelos de clasificación para identificar patrones clave y generar predicciones sobre nuevos datos.
 
-## 👥 Autores (Grupo 18)
+## Autores (Grupo 18)
 * **Hugo Cuevas Romera** [100495962]
 * **Pablo Lorenzo Martín** [100495954]
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 El proyecto se divide en dos fases principales (Análisis/Entrenamiento y Predicción) y contiene los siguientes archivos:
 
@@ -28,7 +28,7 @@ El proyecto se divide en dos fases principales (Análisis/Entrenamiento y Predic
 * **`modelo_final_Grupo18.pkl`**: Archivo binario que contiene el pipeline del modelo final entrenado y serializado para su uso posterior.
 * **`predicciones_Grupo18.csv`**: Archivo CSV con los resultados de las predicciones (etiquetas `Yes`/`No`) generadas por el modelo sobre el conjunto de test.
 
-## ⚙️ Metodología
+## Metodología
 
 ### 1. Preprocesamiento de Datos
 Se implementó un `Pipeline` de Scikit-Learn para automatizar la transformación de datos:
@@ -47,7 +47,7 @@ Se probaron y ajustaron diversos algoritmos de clasificación supervisada, inclu
 ### 3. Selección del Modelo
 Tras comparar las métricas de rendimiento (precisión, recall, score balanceado) y el coste computacional, se seleccionó el modelo que ofrecía el mejor equilibrio entre capacidad predictiva y eficiencia.
 
-## 🚀 Instrucciones de Uso
+## Instrucciones de Uso
 
 ### Requisitos Previos
 Asegúrate de tener instaladas las siguientes librerías de Python:
@@ -60,7 +60,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib
 
 - **Predicción**: Ejecuta el notebook `02_Prediccion_Grupo18.ipynb`. Este script cargará automáticamente el modelo `.pkl` y generará el archivo `predicciones_Grupo18.csv` con los resultados.
 
-## 📊 Datos Utilizados
+## Datos Utilizados
 
 El dataset incluye variables de recursos humanos como:
 
