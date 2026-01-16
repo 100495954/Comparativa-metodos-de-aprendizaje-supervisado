@@ -4,7 +4,7 @@
 
 ---
 
-# 📉 Predicción de Rotación de Empleados (Attrition) - Grupo 18
+# Predicción de Rotación de Empleados (Attrition) - Grupo 18
 
 Este proyecto de Machine Learning tiene como objetivo predecir la fuga o rotación de empleados (**Attrition**) dentro de una organización. A través del análisis de datos históricos de empleados, se entrenaron y evaluaron diversos modelos de clasificación para identificar patrones clave y generar predicciones sobre nuevos datos.
 
