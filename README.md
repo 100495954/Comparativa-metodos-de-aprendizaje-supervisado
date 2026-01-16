@@ -53,7 +53,7 @@ Tras comparar las métricas de rendimiento (precisión, recall, score balanceado
 Asegúrate de tener instaladas las siguientes librerías de Python:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib
-``
+``` 
 ## Ejecución
 
 - **Entrenamiento**: Ejecuta el notebook `01_EDA_Modelado_Grupo18.ipynb` para procesar los datos de entrenamiento, visualizar el análisis y generar el archivo `modelo_final.pkl`.
